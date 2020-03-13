@@ -1,0 +1,302 @@
+*
+{ margin: 0px;
+  padding: 0px;
+}
+
+.flex {
+                display:flex;
+        }
+
+.border {       border-bottom: 1px outset whitesmoke;
+                border-radius: 2px;
+                box-shadow: 1px 1px 0px whitesmoke;   
+        }      
+header  {
+                display:flex;
+                width: 100%;
+                background-color: white;
+                flex-direction: row;
+                position: fixed;
+                font-family:'Roboto Mono', monospace;
+                color: grey;
+        }
+#plateformeg{   display:flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                }
+#plateformed {   display:flex;
+                flex-direction: row;
+                margin-left: 20%;
+                justify-content: space-between;
+                width: 1300px;
+                margin-top: 15px;
+                }
+header a {     text-decoration: none;
+        color: black;   
+        margin-bottom: 15px;
+        }
+
+body p { margin-top: 15px;
+
+}
+
+footer{ display:flex;
+        width: 100%;
+        background-color: #88c1d0;
+        flex-direction: row;
+}
+
+.borderbot {    border-top: 2px outset grey;
+                border-radius: 5px;
+                box-shadow: 4px 4px 0px grey;   
+}
+
+#plateformefg{  display:flex;
+                flex-direction: row;
+                justify-content: flex-start;
+        }
+#plateformefm{   display:flex;s
+                 flex-direction: row;
+                 margin-left: 10%;
+                 justify-content: space-between;
+                 width: 1300px;
+                 margin-top: 25px;
+        }
+#plateformefd{ display:flex;
+        flex-direction: row;
+        margin-left: 20%;
+        justify-content: space-between;
+        width: 1300px;
+        margin-top: 15px;
+}
+#texteb{ display:flex;
+        text-align: center;
+        margin-top: 50px;
+
+}
+#plateformefm img{     width: 100px;
+                height: 100px;
+
+}
+
+#texteb img{
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+                margin-top: 10px;
+}
+
+#gauche{ display: flex;
+        flex-direction: column;
+        background-color: #88c1d0 ;
+        width: 1000px;
+        height: 900px;
+        text-align: center;
+}
+
+main img{
+          width: 400px;
+          height: 400px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+}
+
+main h1{ display: flex;
+        justify-content: center;
+        color: #275fa0;
+        margin-left: 250px;
+        margin-right: 250px;
+        font-family:'Roboto Mono', monospace;
+}
+
+main{ padding-top: 51px;
+}
+
+#carre{
+        text-align: left;
+}
+
+#B1,#B2{
+        background-color: #ffca4b;
+        border: 1px #ffca4b;
+        border-radius: 100px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        width: 7%;
+        height: 20px;
+        display: inline;
+        font-size: 100%; 
+}
+
+#B1 a,#B2 a{
+                text-decoration: none;
+                font-family:'Roboto Mono', monospace;
+                color: white;
+                font-size: 100%;
+}
+
+
+
+#fusion{ display: flex;
+        flex-direction: row;
+        justify-content: right;
+}
+
+#droite img{
+
+        display: flex;
+        justify-content: center;
+        width: 902px;
+        height: 900px;
+}
+
+#droite{
+        display: flex;
+        flex-direction: column;
+        background-color: #88c1d0 ;
+        width: 902px;
+        height: 900px;
+        text-align: center;
+          
+}
+
+#BG{
+        width: 1000px;
+        height: 20px;
+        margin-top: 25px;  
+        
+}
+
+#B1{
+        width: 50%;
+        margin-right: 25px;
+}
+
+#B2{
+        width: 50%;
+        margin-left: 25px;            
+}
+
+#mainbas{
+                width: 1000px;
+                height: 500px;
+}
+
+h2{
+        display:flex;
+        width: 302,45px;
+        height: 210px;
+        margin-left: 400px;
+        font-size: 36px;
+        color: #275fa0;
+        font-family:'Roboto Mono', monospace;
+        margin-top: 50px;
+        margin-right: 200px;
+}
+
+#txtprep{
+        display: flex;
+        width: 500px;
+        height: 210px;
+        margin-left: 400px;
+        font-size: 18px;
+        color: #275fa0;
+        font-family:'Roboto Mono', monospace;
+        margin-top: 50px;
+        margin-right: 200px;
+        
+
+}
+
+table img{      
+                width: 64px;
+                height: 64px;
+}
+
+table{
+        font-size: 18px;
+        font-weight: bold;
+        font-family:'Roboto Mono', monospace;
+        border: 4px outset grey;
+        border-radius: 5px;
+        margin-left: 50px;
+        text-shadow: 2px 2px 4px grey;
+        box-shadow: 4px 4px 0px grey;
+        margin-top: 100px;
+}
+
+#ctrl{
+        display: flex;
+}
+
+#Txtqsn{  
+        font-family:"Open Sans",Arial,sans-serif;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+        color: grey;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.7em;
+        ;
+}
+
+#grandtxt{
+                margin-top: 20px;
+}
+
+#lignephoto{    display: flex;
+                margin-left: 18%;
+                margin-right: 18%;
+                margin-top: 40px;
+                flex-direction: row;
+                justify-content: space-between;
+
+                
+}
+
+#lignephoto img{
+                width: 130px;
+                height: 130px;        
+}
+
+#blocvideo{     display: flex;
+                width: 80%;
+                margin: auto;
+                justify-content: space-around;
+                margin-top: 50px;
+
+
+}
+
+#txtzimp{       display: flex;
+                margin-top: 15px;
+                color: grey;
+}
+
+#blocvideo2{     display: flex;
+                margin: auto;
+                justify-content: left;
+                margin-top: 50px;
+                margin-left: 317px;
+}
+
+#zimp{
+        margin-left: 315px;
+}
+
+#zimp2{
+        margin-left: 30%;
+}
+
+#txtzimp2{       display: flex;
+                margin-top: 15px;
+                color: grey;
+                margin-left: 315px;
+                margin-bottom: 100px;
+}
